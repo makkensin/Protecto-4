@@ -1,0 +1,15 @@
+
+
+
+.div-ham{
+  width: 50px;
+  /* display: none; */
+  /* border: 2px solid black; */
+}
+
+.div-ham > img {
+
+  width: 35px;
+ height: 35px;
+ object-fit: contain;
+}

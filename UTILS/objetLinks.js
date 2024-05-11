@@ -4,18 +4,18 @@
 export const objetLinks = [
   {
     text: "about me",
-    hrefs: "#"
+    hrefs: "#about me"
   },
   {
    text: "Projects",
-   hrefs: "#"
+   hrefs: "#Projects"
   },
   {
    text: "Experience",
-   hrefs: "#"
+   hrefs: "#Experience"
   },
   {
     text: "Contacto",
-    hrefs: "#"
+    hrefs: "#Contacto"
    }
 ];

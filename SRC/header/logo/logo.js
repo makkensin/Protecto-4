@@ -7,10 +7,12 @@ export const printLogos = () => {
 
 const body = document.querySelector('body');
 const app = document.querySelector('#app')
- const header = document.querySelector('header');
+ const header = document.querySelector('#header');
  header.id = 'header';
+ header.classList = 'flex-container';
  const logos = document.createElement('div');
  logos.className = 'logos';
+ logos.classList.add('flex-container');
  const logo = document.createElement('img');
  logo.src = './assets/logo.png';
  logo.className = 'logo-img';
