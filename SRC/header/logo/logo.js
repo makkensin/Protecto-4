@@ -1,5 +1,6 @@
 
 
+
 import './logo.css'
 
 
@@ -18,7 +19,8 @@ const app = document.querySelector('#app')
  logo.className = 'logo-img';
  const nombre = document.createElement('p')
  nombre.className = 'logo-text'
- nombre.textContent = 'makkeDev';
+ nombre.textContent = 'makkeDev.';
+
 
 
  logos.append(logo, nombre)

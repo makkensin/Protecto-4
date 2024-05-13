@@ -15,7 +15,14 @@ export const objetLinks = [
    hrefs: "#Experience"
   },
   {
-    text: "Contacto",
+    text: "Contact",
     hrefs: "#Contacto"
+   },
+   {
+    text: " Skills",
+    hrefs: "#Skills"
    }
 ];
+
+
+

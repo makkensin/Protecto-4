@@ -6,6 +6,8 @@
  /* border: solid 2px black; */
  gap: 10px;
  padding: 10px;
+ /* position: relative; 
+ -webkit-box-reflect: below ; */
 
 
 }
@@ -20,3 +22,4 @@
  font-size: 20px;
  font-weight: 800;
 }
+

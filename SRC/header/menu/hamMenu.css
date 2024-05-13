@@ -3,13 +3,21 @@
 
 .div-ham{
   width: 50px;
-  /* display: none; */
+  display: none;
   /* border: 2px solid black; */
 }
 
 .div-ham > img {
 
-  width: 35px;
- height: 35px;
+  width: 32px;
+ height: 32px;
  object-fit: contain;
+}
+
+
+@media (max-width: 767px){
+  
+  .div-ham{
+    display: block;
+  }
 }
