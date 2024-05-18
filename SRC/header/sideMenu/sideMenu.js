@@ -10,9 +10,9 @@ export const printSideMenu = () => {
 
   const header = document.querySelector('#header');
   const sideNav = document.createElement('nav');
-  sideNav.id = 'open';
-  sideNav.classList = 'side-nav';
-  sideNav.classList.add('flex-column');
+  sideNav.id = 'side-nav'
+  sideNav.className = 'close';
+//   sideNav.classList.add('flex-column');
   const ulSide = document.createElement('ul');
   ulSide.classList = 'ul-side';
   ulSide.classList.add('flex-column')

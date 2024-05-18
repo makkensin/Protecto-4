@@ -6,8 +6,6 @@ import './logo.css'
 
 export const printLogos = () => {
 
-const body = document.querySelector('body');
-const app = document.querySelector('#app')
  const header = document.querySelector('#header');
  header.id = 'header';
  header.classList = 'flex-container';
@@ -25,8 +23,7 @@ const app = document.querySelector('#app')
 
  logos.append(logo, nombre)
  header.append(logos)
- app.append(header)
- body.append(app)
+
 
 }
 

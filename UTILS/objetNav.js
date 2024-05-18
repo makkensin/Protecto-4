@@ -8,7 +8,7 @@ export const elementNav = (ul, text, hrefs) => {
   const a = document.createElement('a');
   a.textContent = text;
   a.href = hrefs;
-
+  
 
  li.append(a);
  ul.append(li);
