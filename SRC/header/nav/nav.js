@@ -16,14 +16,19 @@ export const printNav = () => {
   ul.classList.add('flex-container')
 
  for (const link of objetLinks) {
-   
-    elementNav(ul, link.text, link.hrefs);
+   const li = document.createElement('li');
+   const a = document.createElement('a');
+   a.textContent = link.text;
+   a.addEventListener('click', (e) =>{
+      e.preventDefault()
+      link.ruta();
+   })
+    li.append(a)
+    ul.append(li)
  }
-
 nav.append(ul)
 header.append(nav)
 
 
 }
-
 

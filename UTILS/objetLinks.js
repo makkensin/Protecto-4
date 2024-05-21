@@ -1,27 +1,28 @@
-
+import { aboutMe } from "../PAGES/about/about";
+import { experiencia } from "../PAGES/experiencia/experiencia";
+import { proyect } from "../PAGES/proyectos/proye";
 
 
 export const objetLinks = [
   {
     text: "about me",
-    hrefs: "#about me"
+    ruta: aboutMe
   },
   {
    text: "Projects",
-   hrefs: "#Projects"
+   ruta: proyect
   },
   {
    text: "Experience",
-   hrefs: "#Experience"
+   ruta: experiencia
   },
   {
     text: "Contact",
-    hrefs: "#Contacto"
    },
    {
     text: " Skills",
-    hrefs: "#Skills"
    }
+  
 ];
 
 

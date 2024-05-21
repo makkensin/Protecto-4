@@ -2,7 +2,7 @@
 
 #header{
   background-color:rgb(244, 240, 240);
-  background-color: black;
+  background-color: transparent;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -11,10 +11,17 @@
   padding-left: 35px;
   padding-right: 45px;
   color: white;
-
+  transition: background-color 0.8s ease, color 0.8s ease; /* 
   /* border: solid black 2px; */
 }
 
+
+@media (min-width: 1500px){
+  #header{
+    justify-content: space-around;
+    gap: 280px;
+  }
+}
 
 
 @media (max-width: 766px){

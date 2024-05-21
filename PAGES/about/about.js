@@ -2,25 +2,22 @@
 
 import './about.css'
 
-
 export const aboutMe = () =>{
 
-   const main = document.querySelector('main');
-
+  const main = document.querySelector('main');
 
   const mainSection = document.createElement('section');
-  mainSection.classList.add('main-section');
+  mainSection.id='hero';
   const leftSection = document.createElement('div');
   leftSection.classList.add('left-section')
 
   const parraf1 = document.createElement('p')
   parraf1.textContent ='Hi, I´m Jorge'
   const parraf2 = document.createElement('p')
-  parraf2.textContent = 'I´M A WEB DEVELOPER'
+  parraf2.textContent = 'FULLSTACK DEVELOPER.'
   const parraf3 = document.createElement('p')
-  parraf3.textContent = 'I would like to apply my knowledge and skills in your company, and I am convinced that I can add value to your team of programmers. I am willing to learn and develop professionally, and I am confident that I can contribute to the success of your company.'
+   parraf3.textContent = 'I would like to apply my knowledge and skills in your company, and I am convinced that I can add value to your team of programmers.'
 
-  
   const rigthSection = document.createElement('div');
   rigthSection.classList.add('rigth-section');
   const aboutDivImg = document.createElement('div');
@@ -44,14 +41,11 @@ export const aboutMe = () =>{
 
   h1.append(span)
   rigthSectionText.append(video,h1)
-
 }
-
 aboutDivImg.append(aboutImage)
 rigthSection.append(aboutDivImg,rigthSectionText)
 
 leftSection.append(parraf1,parraf2,parraf3)
 mainSection.append(leftSection,rigthSection)
 main.append(mainSection)
-
 }
