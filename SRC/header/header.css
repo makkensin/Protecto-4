@@ -1,7 +1,7 @@
 
 
 #header{
-  background-color:rgb(244, 240, 240);
+  /* background-color:rgb(244, 240, 240); */
   background-color: transparent;
   width: 100%;
   display: flex;
@@ -11,7 +11,7 @@
   padding-left: 35px;
   padding-right: 45px;
   color: white;
-  transition: background-color 0.8s ease, color 0.8s ease; /* 
+   
   /* border: solid black 2px; */
 }
 
@@ -25,12 +25,12 @@
 
 
 @media (max-width: 766px){
-
+ 
   #header{
-     /* border: solid black 2px; */
-     position: relative;
-
+    padding-left: 15px;
+    padding-right: 25px;
   }
+ 
 
 }
 

@@ -21,3 +21,21 @@
     display: block;
   }
 }
+
+
+@media (max-width: 500px) {
+  .div-ham{
+    width: 50px;
+    /* display: none; */
+    /* border: 2px solid black; */
+  }
+  
+  .div-ham > img {
+    filter: invert(1) brightness(2);
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+
+}

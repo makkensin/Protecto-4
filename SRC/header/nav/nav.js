@@ -1,5 +1,7 @@
 
 
+
+
 import { objetLinks } from '../../../UTILS/objetLinks';
 import { elementNav } from '../../../UTILS/objetNav';
 import './nav.css'
@@ -29,6 +31,4 @@ export const printNav = () => {
 nav.append(ul)
 header.append(nav)
 
-
 }
-

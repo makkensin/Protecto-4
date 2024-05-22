@@ -5,7 +5,7 @@ import './about.css'
 export const aboutMe = () =>{
 
   const main = document.querySelector('main');
-
+  main.innerHTML = '';
   const mainSection = document.createElement('section');
   mainSection.id='hero';
   const leftSection = document.createElement('div');

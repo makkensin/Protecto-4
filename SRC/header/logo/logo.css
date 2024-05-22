@@ -24,3 +24,21 @@
  font-weight: 800;
 }
 
+@media (max-width: 500px){
+
+  .logos{
+    width: 150px;
+    gap: 8px;
+    padding: 10px;
+   }
+   .logos > img{
+    width: 37px;
+    height: 37px;
+  }
+  
+  .logos > p {
+    font-size: 20px;
+   
+  }
+
+}

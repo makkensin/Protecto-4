@@ -113,10 +113,6 @@ html{
   text-align: center;
 }
 
-
-/* #app{
-  display: flex;
-} */
 body{
   width: 100%;
   background-color: rgb(0, 0, 0);
@@ -128,6 +124,7 @@ body{
 }
 @media (max-width: 930px){
   body{
-    overflow: scroll;
+    background-size: cover;
+    
   }
 }

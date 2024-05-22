@@ -1,6 +1,11 @@
+
+
+
+
 import { aboutMe } from "../PAGES/about/about";
 import { experiencia } from "../PAGES/experiencia/experiencia";
 import { proyect } from "../PAGES/proyectos/proye";
+import { skill } from "../PAGES/skills/skills";
 
 
 export const objetLinks = [
@@ -21,6 +26,7 @@ export const objetLinks = [
    },
    {
     text: " Skills",
+    ruta: skill
    }
   
 ];
