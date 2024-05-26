@@ -22,5 +22,5 @@ export const objetSkills = [
     text: 'javascript',
     clase1: 'bar',
     clase2: 'javascript'
-  },
+  }
 ]
