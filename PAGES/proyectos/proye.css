@@ -1,0 +1,108 @@
+
+
+
+#proyects {
+  width: 100%; /* Asegura que el contenedor no supere el ancho de la pantalla */
+
+  max-width: 1000px; /* Opcional: Para limitar el ancho máximo */
+  margin: auto; /* Centra el contenedor */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  padding:16;
+  padding-top: 70px;
+}
+
+.proyect-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.proyect {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.proyect-image {
+  width: 100%;
+  height: 200px; /* Fija la altura de la imagen para asegurar uniformidad */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin distorsión */
+}
+
+.proyect-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1; 
+  /* Asegura que este contenedor crezca para llenar el espacio */
+}
+
+.proyect-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.proyect-description {
+  font-size: 1em;
+  color: rgb(244, 59, 103);
+  flex-grow: 1; /* Permite que la descripción ocupe el espacio disponible */
+}
+
+.proyect-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.proyect-link {
+  color: gold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.proyect-link:hover {
+  text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+  #proyects {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta el tamaño mínimo para más flexibilidad */
+  }
+}
+
+@media (max-width: 768px) {
+  #proyects {
+    grid-template-columns: 1fr; /* 1 proyecto por fila */
+  }
+  
+  .proyect-image {
+    height: 150px; /* Reduce la altura de la imagen en dispositivos móviles */
+  }
+
+  .proyect-content {
+    padding: 12px; /* Reduce el padding en dispositivos móviles */
+  }
+
+  .proyect-title {
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+  }
+
+  .proyect-description {
+    font-size: 0.9em; /* Ajusta el tamaño de la fuente para dispositivos móviles */
+  }
+}
+
+@media (max-width: 480px){
+  #proyects{
+    width: 80%;
+  }
+}
