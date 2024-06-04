@@ -120,7 +120,7 @@ body{
   background-image: url(assets/fondo.png);
   background-repeat: no-repeat;
   background-size: contain;
-  overflow: hidden;
+  /* overflow: hidden; */
  
 }
 @media (max-width: 930px){

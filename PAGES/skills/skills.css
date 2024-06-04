@@ -103,3 +103,34 @@
     width: 65%;
   }
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* Tablet */
+  .skill {
+    width: 80%;
+  }
+
+  .bar {
+    height: 15px;
+  }
+
+  .bar > span {
+    height: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Mobile */
+  .skill {
+    width: 80%;
+  }
+
+  .bar {
+    height: 10px;
+  }
+
+  .bar > span {
+    height: 8px;
+  }
+}

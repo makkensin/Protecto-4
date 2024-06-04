@@ -3,7 +3,7 @@
 
 
 import { aboutMe } from "../PAGES/about/about";
-import { experiencia } from "../PAGES/experiencia/experiencia";
+import { contact } from "../PAGES/contact/contact";
 import { proyect } from "../PAGES/proyectos/proye";
 import { skill } from "../PAGES/skills/skills";
 
@@ -18,11 +18,8 @@ export const objetLinks = [
    ruta: proyect
   },
   {
-   text: "Experience",
-   ruta: experiencia
-  },
-  {
     text: "Contact",
+    ruta: contact
    },
    {
     text: " Skills",
